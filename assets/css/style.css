@@ -1,0 +1,143 @@
+*{
+    font-family: Georgia, Times, Serif;
+}
+
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-size: x-large;
+    align-content: center;
+    float:left;
+    padding: 10px
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+body{
+    background-image: url('assets/images/cheap_diagonal_fabric.png');
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding: 15px;
+}
+
+.aboutme {
+    width: 55%;
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: block;
+    background-color: whitesmoke;
+    padding: 12px;
+    float: left;
+    line-height: 1.5em;
+}
+
+.link-button-wrapper {
+    color: white;
+    float: right;
+    padding-right: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.container {
+    float: left;
+    bottom: 550px;
+    position: absolute;
+    margin-right: 30px;
+    left: 60%
+}
+
+#contact {
+    font-weight: bold;
+    margin-left: 40px;
+    border: 2px solid #4aaaa5;
+    padding: 20px;
+    position: absolute;
+    width: 125px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .5em;
+    background-color: #efefef;
+    text-align: center;
+}
+
+#portfolio {
+    font-size: large;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin-left: 10px;
+}
+
+.firstcolumn {
+    float: left;
+    margin-left: 60px;
+}
+
+.secondcolumn {
+    float: left;
+    margin-left: 30px;
+}
+
+.thirdcolumn {
+    float: left;
+    margin-left: 30px;
+}
+
+img {
+    height: 175px;
+    width:175px;
+}
+
+.one {
+    background-color: #faaaa5;
+    position: relative;
+    bottom: -198px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: 165px;
+}
+
+.two {
+    background-color: #faaaa5;
+    position: relative;
+    bottom: -198px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: 165px;
+}
+
+#contactsection {
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    background-color: #FAF4F4;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: #e86666;
+    font-weight: bold;
+}
+
+p:hover { background-color: pink; }

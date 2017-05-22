@@ -1,0 +1,360 @@
+*{
+    font-family: Georgia, Times, Serif;
+}
+
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-size: x-large;
+    align-content: center;
+    float:left;
+    padding: 10px
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+body{
+    background-image: url('assets/images/cheap_diagonal_fabric.png');
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    padding: 15px;
+}
+
+.aboutme {
+    width: 55%;
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: block;
+    background-color: whitesmoke;
+    padding: 12px;
+    float: left;
+    line-height: 1.5em;
+}
+
+.link-button-wrapper {
+    color: white;
+    float: right;
+    padding-right: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.container {
+    float: left;
+    bottom: 550px;
+    position: absolute;
+    margin-right: 30px;
+    left: 60%
+}
+
+#contact {
+    font-weight: bold;
+    margin-left: 40px;
+    border: 2px solid #4aaaa5;
+    padding: 20px;
+    position: absolute;
+    width: 125px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 4px;
+    padding: .5em;
+    background-color: #efefef;
+    text-align: center;
+}
+
+#portfolio {
+    font-size: large;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin-left: 10px;
+}
+
+.firstcolumn {
+    float: left;
+    margin-left: 70px;
+}
+
+.secondcolumn {
+    float: left;
+    margin-left: 30px;
+}
+
+.thirdcolumn {
+    float: left;
+    margin-left: 30px;
+}
+
+img {
+    height: 175px;
+    width:175px;
+}
+
+.one {
+    background-color: #faaaa5;
+    position: relative;
+    bottom: -198px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: 165px;
+}
+
+.two {
+    background-color: #faaaa5;
+    position: relative;
+    bottom: -198px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    width: 165px;
+}
+
+#contactsection {
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+    text-align: left;
+    position: absolute;
+    top: 10%;
+    background-color: #FAF4F4;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: #e86666;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #e86666;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 400px;
+    margin-left: 100px;
+    width: 200px;
+}
+
+p:hover { background-color: pink; }
+
+
+
+@media screen and (min-width: 768.1px) and (max-width: 980px){
+    h1{
+        margin-left: 150px;
+    }
+
+    #portfolio {
+        margin-left: 150px;
+    }
+
+    .aboutme {
+        margin-left: 150px;
+    }
+
+    .firstcolumn {
+        float: left;
+        margin-left: 10em;
+    }
+   
+
+    .secondcolumn {
+        float: left;
+        margin-left: 10em;
+    }
+    
+
+    .thirdcolumn {
+        float: left;
+        clear: left;
+        margin-left: 10em;
+        margin-bottom: 50px;
+    }
+
+    .one, .two, .three {
+        width: 19.9em;
+    }
+
+    img {
+        width: 20.45em;
+        height: 198px;
+    }
+
+    .container {
+        bottom: 720px;
+        top: 165px;
+    }
+
+    #contact {
+        margin-left: 140px;
+    }
+
+    #contactsection {
+        margin-top: 25px;
+        margin-left: 150px;
+    }
+
+    .button {
+        margin-left: 150px;
+        margin-top: 415px;
+    }
+}
+
+@media screen and (min-width: 640.1px) and (max-width: 768px) {
+    .aboutme {
+        width: 80%;
+        margin-left: 65px;
+
+    }
+
+    .firstcolumn {
+        margin-left: 150px;
+    }
+    .secondcolumn {
+        float: left;
+        margin-left: 100px;
+
+    }
+    
+    .thirdcolumn {
+        float: left;
+        clear: left;
+        margin-left: 150px;
+
+    }
+
+    .container {
+        float: left;
+        clear: left;
+        margin-top: 3em;
+        bottom: 4em;
+        position: relative;
+        left: 2%;
+        width:90%;
+    }
+
+    #contact {
+        float: left;
+        clear: left;
+        margin-top: 4em;
+        position: relative;
+        font-weight: bold;
+        border: 2px solid #4aaaa5;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .button {
+        margin-top:0px;
+        width: 50%;
+        margin-left: 150px;
+    }
+
+    #contactsection {
+        position: relative;
+        width: 58%;
+        margin-left: 150px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    h1 {
+        width:100%;
+    }
+
+
+    .link-button-wrapper {
+        float: right;
+        clear: right;
+        padding: 0;
+        margin-right: 0;
+        text-align:right;
+    }
+
+    .aboutme {
+        width: 70%;
+        margin-left: 75px;
+    }
+    
+    .firstcolumn {
+        float: left;
+        margin-left: 10em;
+    }
+   
+
+    .secondcolumn {
+        float: left;
+        margin-left: 10em;
+    }
+    
+
+    .thirdcolumn {
+        float: left;
+        clear: left;
+        margin-left: 10em;
+    }
+
+    .one, .two, .three {
+        width: 19.9em;
+    }
+
+    img {
+        width: 20.45em;
+        height: 195px;
+    }
+
+    .container {
+        float: left;
+        clear: left;
+        margin-top: 3em;
+        bottom: 4em;
+        position: relative;
+        left: 2%;
+        width:90%;
+    }
+
+    #contact {
+        float: left;
+        clear: left;
+        margin-top: 4em;
+        position: relative;
+        font-weight: bold;
+        border: 2px solid #4aaaa5;
+        padding: 20px;
+        width: 90%;
+        margin-left:20px;
+    }
+
+    .button {
+        margin-top:0px;
+        width: 50%;
+    }
+
+    #contactsection {
+        position: relative;
+        width: 60%;
+    }
+}
